@@ -1,0 +1,141 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:300,400,500,600,700,800');
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 15px;
+	line-height: 1.7;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+.section-padding {
+    padding: 50px 0;
+}
+.section-bg-1 {
+    position: relative;
+}
+.section-bg-1::before {
+	background: url(img/section-bg-1.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-color: #ddd;
+	position: absolute;
+	content: "";
+	width: 47%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.section-title {
+	margin-bottom: 30px;
+}
+.section-title h2 {
+	font-size: 31px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.section-title span {
+    color: #19B7FE;
+}
+.section-title p {
+	line-height: 25px;
+	color: #8D8D8D;
+    margin-bottom: 40px;
+}
+.style-faq {
+	min-height: 397px;
+}
+.style-faq .panel-default > .panel-heading {
+	border: none;
+	border-radius: 0;
+	background: none;
+    padding: 0;
+}
+.style-faq .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: none;
+}
+.panel-group .panel {
+	border-radius: 0;
+	box-shadow: 0 0 0;
+	margin-bottom: 20px;
+}
+.style-faq .panel .panel-heading h4 a {
+	padding: 10px;
+	display: block;
+	position: relative;
+}
+.style-faq .panel .panel-heading h4 a i.fa {
+	position: absolute;
+	right: 15px;
+	top: 0;
+	font-size: 25px;
+	line-height: 34px;
+	display: none;
+}
+.style-faq .panel .panel-heading h4 a[aria-expanded="true"] i.fa.fa-angle-up {
+    display: block;
+}
+.style-faq .panel .panel-heading h4 a[aria-expanded="false"] i.fa.fa-angle-down {
+    display: block;
+}
